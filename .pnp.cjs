@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:4.2.1"],\
             ["eslint-plugin-react", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:7.32.2"],\
             ["prettier", "npm:2.8.4"],\
+            ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:18.2.0"],\
             ["react-scripts", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:5.0.1"],\
@@ -11867,6 +11868,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-prettier", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:4.2.1"],\
             ["eslint-plugin-react", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:7.32.2"],\
             ["prettier", "npm:2.8.4"],\
+            ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:18.2.0"],\
             ["react-scripts", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:5.0.1"],\
