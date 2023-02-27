@@ -1,6 +1,11 @@
 import React, { useEffect } from 'react';
+import Layout from './components/layout';
+import Actives from './pages/Actives';
+import HowToJoin from './pages/HowToJoin';
+import MJUDevlopers from './pages/MJUDevelopers';
+import Introduction from './pages/Introduction';
 
-var vh = 0;
+let vh = 0;
 
 function App() {
   useEffect(() => {
@@ -9,9 +14,12 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <header className="App-header">test</header>
-    </div>
+    <Layout>
+      <MJUDevlopers />
+      <Introduction />
+      <Actives />
+      <HowToJoin />
+    </Layout>
   );
 }
 
