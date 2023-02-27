@@ -5354,6 +5354,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"env@npm:^0.0.2":
+  version: 0.0.2
+  resolution: "env@npm:0.0.2"
+  checksum: 2e5600360384dde126ea7cf4af1a66bca1ceff96cd509c151efdf225efb4650bc3f366f02fbc57bde1928b517b2082a389944240ed9131e9a7be12cfa07fa102
+  languageName: node
+  linkType: hard
+
 "err-code@npm:^2.0.2":
   version: 2.0.3
   resolution: "err-code@npm:2.0.3"
@@ -8795,6 +8802,7 @@ __metadata:
     "@testing-library/jest-dom": ^5.14.1
     "@testing-library/react": ^13.0.0
     "@testing-library/user-event": ^13.2.1
+    env: ^0.0.2
     eslint: ^8.34.0
     eslint-config-prettier: ^8.6.0
     eslint-plugin-prettier: ^4.2.1

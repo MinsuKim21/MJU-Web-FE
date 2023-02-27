@@ -31,6 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:13.5.0"],\
+            ["env", "npm:0.0.2"],\
             ["eslint", "npm:8.34.0"],\
             ["eslint-config-prettier", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:8.6.0"],\
             ["eslint-plugin-prettier", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:4.2.1"],\
@@ -7786,6 +7787,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["env", [\
+        ["npm:0.0.2", {\
+          "packageLocation": "./.yarn/cache/env-npm-0.0.2-7b2e848be5-2e56003603.zip/node_modules/env/",\
+          "packageDependencies": [\
+            ["env", "npm:0.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["env-paths", [\
         ["npm:2.2.1", {\
           "packageLocation": "./.yarn/cache/env-paths-npm-2.2.1-7c7577428c-65b5df55a8.zip/node_modules/env-paths/",\
@@ -11863,6 +11873,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:13.5.0"],\
+            ["env", "npm:0.0.2"],\
             ["eslint", "npm:8.34.0"],\
             ["eslint-config-prettier", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:8.6.0"],\
             ["eslint-plugin-prettier", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:4.2.1"],\
