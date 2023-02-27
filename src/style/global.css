@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+@import url('https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css');
+
 
 html,
 body,
@@ -18,4 +21,48 @@ body,
   background-color: #ffffff;
 
   scroll-behavior: smooth;
+}
+
+.mainContext {
+  @apply mb-32 pt-56 text-center
+}
+
+/* 
+  Component
+*/
+
+/* 
+  ./Header
+*/
+.headerContainer {
+  @apply w-full py-4 h-28 px-36 bg-black z-10 fixed align-middle
+}
+
+/* 
+  ./Nav
+*/
+.nav{
+  @apply mx-auto top-0 left-0 w-full tracking-wide flex justify-around 
+}
+
+
+.nav-item {
+  @apply block h-20 pt-6
+}
+
+/* 
+  pages
+*/
+
+/* 
+  mju developers page
+*/
+
+.MJU-Developers {
+  @apply bg-black text-slate-100 text-center pt-4
+}
+
+
+.howToJoin {
+  @apply bg-black py-16 text-left px-30
 }
