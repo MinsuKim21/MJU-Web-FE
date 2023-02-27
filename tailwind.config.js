@@ -28,6 +28,12 @@ module.exports = {
         mobileScreen: 'calc(var(--vh, 1vh) * 100)',
       },
       keyframes: {
+        typingCursor: {
+          from: {
+            borderRight: '2px solid white',
+          },
+          to: { borderRight: '2px solid black' },
+        },
         bounceSlow: {
           '0%, 100%': {
             transform: 'translateY(-30%)',
@@ -40,6 +46,7 @@ module.exports = {
         },
       },
       animation: {
+        typingCursor: 'typingCursor 1s ease-in-out 0ms 2',
         'bounce-slow': 'bounceSlow 1.5s infinite',
       },
     },
