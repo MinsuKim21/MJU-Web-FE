@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.2.1",
     "env": "^0.0.2",
     "lodash": "^4.17.21",
+    "prettier-plugin-tailwind": "^2.2.12",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

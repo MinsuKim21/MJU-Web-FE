@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:7.32.2"],\
             ["lodash", "npm:4.17.21"],\
             ["prettier", "npm:2.8.4"],\
+            ["prettier-plugin-tailwind", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:2.2.12"],\
             ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:18.2.0"],\
@@ -11891,6 +11892,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:7.32.2"],\
             ["lodash", "npm:4.17.21"],\
             ["prettier", "npm:2.8.4"],\
+            ["prettier-plugin-tailwind", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:2.2.12"],\
             ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:18.2.0"],\
@@ -14338,6 +14340,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prettier-plugin-tailwind", [\
+        ["npm:2.2.12", {\
+          "packageLocation": "./.yarn/cache/prettier-plugin-tailwind-npm-2.2.12-c95bbced6f-67608db2c3.zip/node_modules/prettier-plugin-tailwind/",\
+          "packageDependencies": [\
+            ["prettier-plugin-tailwind", "npm:2.2.12"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:2.2.12", {\
+          "packageLocation": "./.yarn/__virtual__/prettier-plugin-tailwind-virtual-e6fff365c3/0/cache/prettier-plugin-tailwind-npm-2.2.12-c95bbced6f-67608db2c3.zip/node_modules/prettier-plugin-tailwind/",\
+          "packageDependencies": [\
+            ["prettier-plugin-tailwind", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:2.2.12"],\
+            ["@types/prettier", null],\
+            ["@types/tailwindcss", null],\
+            ["prettier", "npm:2.8.4"],\
+            ["tailwind-classes-sorter", "npm:0.2.5"],\
+            ["tailwindcss", "virtual:98bbf26a0def2ac4bc8de894261c029463b22c6f735a025b91ffca7dac4bd2bbeb0b246cb37b3f415fe02056e56ea39a23922c111e4eb092cc00750bd8c85160#npm:3.2.7"]\
+          ],\
+          "packagePeers": [\
+            "@types/prettier",\
+            "@types/tailwindcss",\
+            "prettier",\
+            "tailwindcss"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["pretty-bytes", [\
         ["npm:5.6.0", {\
           "packageLocation": "./.yarn/cache/pretty-bytes-npm-5.6.0-0061079c9f-9c082500d1.zip/node_modules/pretty-bytes/",\
@@ -16150,6 +16179,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/symbol-tree-npm-3.2.4-fe70cdb75b-6e8fc7e148.zip/node_modules/symbol-tree/",\
           "packageDependencies": [\
             ["symbol-tree", "npm:3.2.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tailwind-classes-sorter", [\
+        ["npm:0.2.5", {\
+          "packageLocation": "./.yarn/cache/tailwind-classes-sorter-npm-0.2.5-ff635837b5-340fa14f7c.zip/node_modules/tailwind-classes-sorter/",\
+          "packageDependencies": [\
+            ["tailwind-classes-sorter", "npm:0.2.5"],\
+            ["find-up", "npm:5.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
