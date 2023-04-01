@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export default function TypingAni({ children, textColor, fontSize, fontWeight }) {
   const txt = `${children}`;
-  console.log(txt);
+  // console.log(txt);
   const [text, setText] = useState('');
   const [count, setCount] = useState(0);
 
