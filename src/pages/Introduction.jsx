@@ -16,7 +16,7 @@ export default function MJUDevlopers(props) {
   return (
     <section className="MJU-Developers" id="introduction">
       {view ? (
-        <TypingAni fontSize={'md:text-3xl text-base'} fontWeight={'font-normal'}>
+        <TypingAni fontSize={'md:text-3xl sm:text-2xl text-xl'} fontWeight={'font-normal'}>
           What we do?
         </TypingAni>
       ) : null}

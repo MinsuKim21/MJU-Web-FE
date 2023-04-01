@@ -11,15 +11,17 @@ const headerItems = [
 export default function Nav() {
   return (
     <nav className="nav">
-      {headerItems.map((item) => {
-        return (
-          <a key={item.id} href={item.href} className="nav-item">
-            <Heading fontSize={'md:text-xl sm:text-sm '} fontWeight={'font-black'}>
-              {item.title}
-            </Heading>
-          </a>
-        );
-      })}
+      <div className="flex justify-around w-auto">
+        {headerItems.map((item) => {
+          return (
+            <a key={item.id} href={item.href} className="nav-item">
+              <Heading fontSize={'lg:text-2xl md:text-xl sm:text-sm '} fontWeight={'font-black'}>
+                {item.title}
+              </Heading>
+            </a>
+          );
+        })}
+      </div>
     </nav>
   );
 }
