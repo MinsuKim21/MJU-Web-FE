@@ -27,14 +27,6 @@ export default function Carousel() {
 
   const numSlides = 3;
 
-  // const slides = [
-  //   { id: -1, imageSrc: 'slide3.jpg' },
-  //   { id: 0, imageSrc: 'slide1.jpg' },
-  //   { id: 1, imageSrc: 'slide2.jpg' },
-  //   { id: 2, imageSrc: 'slide3.jpg' },
-  //   { id: 3, imageSrc: 'slide1.jpg' },
-  // ];
-
   return (
     <div className="overflow-hidden">
       <div
